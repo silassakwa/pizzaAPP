@@ -5,7 +5,7 @@
 {This project domonstrate my knowlede in using advanced function and objects in js}
 Project setup instructions
 To start using this project use the following commands:
-`git clone 
+`git clone https://silassakwa.github.io/pizzaAPP/
 visual studio code;.
 License info
 *{MIT.}*License
