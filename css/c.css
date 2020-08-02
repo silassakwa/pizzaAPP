@@ -58,3 +58,8 @@ body{
      color:red;
  }
 
+.page-footer{
+    background-color: black;
+    color:white;
+    padding-top: 15px;
+}
