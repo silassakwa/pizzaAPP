@@ -42,10 +42,10 @@ body{
     text-align: center;
   }
   .description h1 {
-    color: greenyellow;
+    color: red;
   }
   .description p {
-    color:black;
+    color:red;
     font-size: 12px;
     line-height: 1.2;
   }

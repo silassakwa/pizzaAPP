@@ -6,9 +6,9 @@ function Pizza(flavor ,toppings,size, quantity, price) {
   this.price = price;
 }
 
-var small=500;
-var medium=750;
-var large= 950;
+var small=550;
+var medium=830;
+var large=1030;
 var topping =100;
 
 
