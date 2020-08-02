@@ -25,3 +25,35 @@ body{
 .navbar span{
     color:red;
 }
+.header
+{
+    padding-top: 40%;
+    background-image: url("../img/pizza/chicken\ mushroom.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+.description {
+    left: 50%;
+    position: absolute;
+    top: 63%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+  }
+  .description h1 {
+    color: greenyellow;
+  }
+  .description p {
+    color:black;
+    font-size: 12px;
+    line-height: 1.2;
+  }
+ .footer
+ {
+     
+ }
+ h3
+ {
+     color:red;
+ }
