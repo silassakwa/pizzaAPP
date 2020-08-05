@@ -93,12 +93,13 @@ So pop by the new 680 Hotel Pizza Inn branch na uwakilishe the start of a long w
         <p class="type">Extra Toppings</p>
         <select class="form-control  col-md-8 two" id="toppings">
         <option value ="">None</option>
-        <option value ="Extra tomato">Tomato</option>
-        <option value ="Extra pineapple">Pinapple</option>
+        <option value ="tomato">Tomato</option>
+        <option value =" pineapple">Pinapple</option>
 </select>
  <!--Choose  crust-->
- <p class="type">Pick Size</p>
+ <p class="type">Pick crust</p>
   <select class="form-control col-md-8 three" id="crust">
+  <option value ="none">None</option>
   <option value ="cripsy">Cripsy</option>
   <option value ="stuffed">stuffed</option>
   <option value ="gluten-free">gluten free</option>
@@ -125,12 +126,12 @@ So pop by the new 680 Hotel Pizza Inn branch na uwakilishe the start of a long w
     <option value ="10">10</option>
   </select>
   <br>
-  <div class="form-group col-md-9">
-    <button class="btn add bg-secondary" id="order">Order</button>
+  <div class="form-group col-md-12">
+    <button class="btn add bg-secondary col-md-8" id="order">Order</button>
  </div>
 
- <div class="form-group col-md-9">
-     <button class="btn  btn bg-success" id="deliver">Delivary</button>
+ <div class="form-group col-md-12">
+     <button class="btn  btn bg-success col-md-8" id="deliver">Delivary</button>
   </div>
 </div>
 <div class="col-md-6 txt">
@@ -145,6 +146,7 @@ So pop by the new 680 Hotel Pizza Inn branch na uwakilishe the start of a long w
 
             <th scope="col">Flavor</th>
             <th scope="col">Toppings</th>
+            <th scope="col"> Crust</th>
             <th scope="col">Size</th>
             <th scope="col">Boxes</th>
             <th scope="col">Total</th>
@@ -155,6 +157,7 @@ So pop by the new 680 Hotel Pizza Inn branch na uwakilishe the start of a long w
 
             <th scope="row" id="flav"></th>
             <th id="tp"></th>
+            <th id="cr"></th>
             <th id="sz"></th>
             <th id="bxs"></th>
             <th id="total"></th>
